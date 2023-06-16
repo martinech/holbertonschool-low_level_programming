@@ -6,9 +6,13 @@ int
 main(void)
 {
 int ch;
-while (ch < '9')
+for (ch = '0'; ch <= 9; ch++)
 {
-putchar(ch);
+	putchar(ch);
+	if (ch == '9')
+	{
+		break;
+	}
 	putchar(',');
 	putchar(' ');
 }
