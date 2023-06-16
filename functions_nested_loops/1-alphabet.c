@@ -5,11 +5,10 @@
 int
 main(void)
 {
-char frase[] = "abcdefghijklmnopqrstuvwxyz";
-int i;
-for (i = 0; i <= 23; i++)
+char i;
+for (i = 'a'; i <= 'z'; i++)
 {
-_putchar(frase[i]);
+_putchar(i);
 }
 _putchar('\n');
 return (0);
