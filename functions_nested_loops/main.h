@@ -1,5 +1,3 @@
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
+#include <unistd.h>
+
+int _putchar(char c);
