@@ -3,7 +3,7 @@
 #include "main.h"
 
 int
-_isslower(int c)
+_isslower(int i)
 {
 	char i;
 
