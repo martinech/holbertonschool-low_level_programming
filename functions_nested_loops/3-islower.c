@@ -3,7 +3,7 @@
 #include "main.h"
 
 int
-_isslower(int c)
+_islower(int c)
 {
 	if (c >= 97 && c <= 122)
 	{
