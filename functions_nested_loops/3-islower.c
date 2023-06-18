@@ -3,11 +3,11 @@
 #include "main.h"
 
 int
-_isslower(int i)
+_isslower(int c)
 {
-	int i;
+	int c;
 
-	if (i >= 97 && i <= 122)
+	if (c >= 97 && c <= 122)
 	{
 		return(1);
 	}
