@@ -5,7 +5,7 @@
 int
 _isslower(int i)
 {
-	char i;
+	int i;
 
 	if (i >= 97 && i <= 122)
 	{
