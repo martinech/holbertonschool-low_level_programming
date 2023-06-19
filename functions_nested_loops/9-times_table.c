@@ -30,7 +30,6 @@ times_table(void)
 			{
 				_putchar(y + '0');
 			}
-			
 			if (x != 9)
 			{
 				_putchar(',');
