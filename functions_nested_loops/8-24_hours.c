@@ -9,7 +9,7 @@ jack_bauer(void)
 	int p;
 	int r;
 
-	for (p = 0; h < 24; h++)
+	for (p = 0; p < 24; p++)
 	{
 		for (r = 0; r <= 59; r++)
 		{
