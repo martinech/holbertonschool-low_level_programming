@@ -2,7 +2,7 @@
 #include "main.h"
 
 void
-print_to98(int x)
+print_to_98(int x)
 {
 	if (x < 98)
 	{
