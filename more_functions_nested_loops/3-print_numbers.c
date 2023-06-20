@@ -2,9 +2,6 @@
 #include <string.h>
 #include "main.h"
 
-/**
- * @c: variable
- */
 
 void
 print_numbers(void)
