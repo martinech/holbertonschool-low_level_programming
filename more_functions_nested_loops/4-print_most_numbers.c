@@ -6,9 +6,9 @@ int
 main(void)
 {
 int i;
-for (i = '0'; ch <= '9'; i++)
+for (i = '0'; i <= '9'; i++)
 {
-if (i != '2' && ch != '4')
+if (i != '2' && i != '4')
 {
 putchar(i);
 }
