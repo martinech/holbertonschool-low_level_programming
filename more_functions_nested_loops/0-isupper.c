@@ -3,7 +3,7 @@
 #include "main.h"
 
 int
-_islower(int c)
+_isupper(int c)
 {
 	if (c >= 65 && c <= 90)
 	{
