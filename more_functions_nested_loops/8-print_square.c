@@ -1,6 +1,7 @@
 #include "main.h"
 
-void print_square(int size)
+void
+print_square(int size)
 {
 	int fil;
 	int col;
