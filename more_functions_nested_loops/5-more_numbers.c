@@ -9,7 +9,6 @@ more_numbers(void)
 	
 	for (x = 0 ; x <= 10; x++)
 	{
-		i
 		for (i = 0; i <= 14; i++)
 		{
 			if (i >= 10)
