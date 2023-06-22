@@ -13,5 +13,5 @@ count = 0;
 		_putchar(s[count]);
 	}
 _putchar('\n');
-			
+return (0);			
 }
