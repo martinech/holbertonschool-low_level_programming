@@ -10,7 +10,7 @@ count = 0;
 
 	while (s[count] != '\0')
 	{
-		_putchar('s[count]');
+		_putchar(s[count]);
 	}
 _putchar('\n');
 			
