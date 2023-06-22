@@ -10,8 +10,8 @@ count = 0;
 
 	while (str[count] != '\0')
 	{
-		_puts(str[count]);
+		_putchar(str[count]);
 	}
-_puts('\n');
+_putchar('\n');
 return (0);			
 }
