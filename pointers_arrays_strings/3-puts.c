@@ -2,15 +2,15 @@
 #include "main.h"
 
 int
-_puts(char *s)
+_puts(char *str)
 {
 int count;
 
 count = 0;
 
-	while (s[count] != '\0')
+	while (str[count] != '\0')
 	{
-		_puts(s[count]);
+		_puts(str[count]);
 	}
 _puts('\n');
 return (0);			
