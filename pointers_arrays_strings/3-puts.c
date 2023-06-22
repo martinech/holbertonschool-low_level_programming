@@ -10,8 +10,8 @@ count = 0;
 
 	while (s[count] != '\0')
 	{
-		_putchart[i];
+		_putchar[i];
 	}
-_putchart('\n')
+_putchar('\n')
 			
 }
