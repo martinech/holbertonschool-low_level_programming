@@ -2,11 +2,16 @@
 #include "main.h"
 
 int
-_puts(char *str)
+_strlen(char *s)
 {
-int i = 0;
+int count;
 
-	while (str[i] < _strlen(char *str))
-		_putchar(str[i])
+count = 0;
 
+	while (s[count] != '\0')
+	{
+		_putchart[i];
+	}
+_putchart('\n')
+			
 }
