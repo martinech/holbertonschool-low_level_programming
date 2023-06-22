@@ -2,7 +2,7 @@
 #include "main.h"
 
 int
-_strlen(char *s)
+_puts(char *s)
 {
 int count;
 
@@ -10,8 +10,8 @@ count = 0;
 
 	while (s[count] != '\0')
 	{
-		_putchar(s[count]);
+		_puts(s[count]);
 	}
-_putchar('\n');
+_puts('\n');
 return (0);			
 }
