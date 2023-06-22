@@ -6,11 +6,9 @@ _puts(char *str)
 {
 int count;
 
-count = 0;
-
-	while (str[count] != '\0')
+	while (*str != '\0')
 	{
-		_putchar(str[count]++);
+		_putchar(*str++);
 	}
 _putchar('\n');
 return (0);			
