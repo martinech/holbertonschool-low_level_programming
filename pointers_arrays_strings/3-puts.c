@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 
-int
+void
 _puts(char *str);
 
 {
