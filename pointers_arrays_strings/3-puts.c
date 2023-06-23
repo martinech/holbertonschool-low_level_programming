@@ -2,7 +2,7 @@
 #include "main.h"
 
 int
-_puts(char *str)
+_puts(char *str);
 
 {
 		
