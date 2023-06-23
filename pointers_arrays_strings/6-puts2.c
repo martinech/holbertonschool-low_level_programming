@@ -18,7 +18,7 @@ if (len % 2 == 0)
 else
 	while (c < len / 2)
 	{
-	_putchar(S[c * 2]);
+	_putchar(s[c * 2]);
 	{
 }
 _putchar('\n');
