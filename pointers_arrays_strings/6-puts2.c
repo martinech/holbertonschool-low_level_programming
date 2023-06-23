@@ -2,18 +2,18 @@
 #include "main.h"
 
 void
-puts2(char *s)
+rev_string(char *s)
 {
 
 int len = 0;
+int c = 0;
 
 while (s[len] != '\0')
 	len++;
-while (len > 0)
+while (c < len)
 	{
-	len--;
-	_putchar(s[2 * len]);
+	_putchar(s[c * 2]);
+	len++
 }
-
 _putchar('\n');
 }
