@@ -17,4 +17,5 @@ n = (len - 1) / 2;
 while (n < len)
 {
 	c[n]=str[n];
+}
 }	
