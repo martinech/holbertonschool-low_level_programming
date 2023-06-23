@@ -13,7 +13,7 @@ while (s[len] != '\0')
 while (c < len)
 	{
 	_putchar(s[c * 2]);
-	len++
+	c++;
 }
 _putchar('\n');
 }
