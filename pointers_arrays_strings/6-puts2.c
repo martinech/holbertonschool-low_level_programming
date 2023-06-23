@@ -2,7 +2,7 @@
 #include "main.h"
 
 void
-rev_string(char *s)
+puts2(char *s)
 {
 
 int len = 0;
