@@ -14,9 +14,9 @@ for (n = 0; s[n] != '\0'; n++)
 	continue;
 }
 
-for (len; len > 0; len--)
+for (n; n > 0; n--)
 {
-	c[len]=s[len];
+	c[n]=s[n];
 }
 return(c);
 }
