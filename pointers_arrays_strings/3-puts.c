@@ -4,12 +4,9 @@
 int
 _puts(char *str)
 {
-int count;
-
-	while (*str != '\0')
-	{
-		_putchar(*str++);
-	}
+	while
+		_putchar(+str++);
+}
 _putchar('\n');
-return (0);			
+return(0);
 }
