@@ -17,7 +17,7 @@ if (len % 2 == 0)
 	c++;
 	}
 else
-	while (c < len / 2)
+	while (c <= len / 2)
 	{
 	_putchar(s[c * 2]);
 	c++;
