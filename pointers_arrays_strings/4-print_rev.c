@@ -2,7 +2,7 @@
 #include "main.h"
 
 void
-_print_rev(char *s)
+print_rev(char *s)
 {
 
 int len = 0;
