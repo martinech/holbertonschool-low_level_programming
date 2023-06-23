@@ -9,16 +9,18 @@ int c[1000];
 int n;
 int a;
 
-for (n = 0; s[n] != '\0'; n++)
+for (n = 0; s[n]; n++)
 {
 	continue;
 }
-
-for (n; n > 0; n--)
+a -= 1;
+for (; s[n]; n--)
 {
-	c[n]=s[n];
+	c[a] = s[n];
+	a++
 }
-
-for (a; a <0; a--)
-return(c);
+for (n = 0; s[n]; n++)
+{
+	s[n] = c[n]
+}
 }
