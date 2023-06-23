@@ -5,7 +5,7 @@ void
 _print_rev(char *s)
 {
 
-int len = strlen(*s)
+int len = _strlen(s)
 
 while (*s > 0)
 {
