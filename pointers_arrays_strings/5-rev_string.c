@@ -13,7 +13,7 @@ for (n = 0; s[n]; n++)
 {
 	continue;
 }
-a -= 1;
+n -= 1;
 for (; s[n]; n--)
 {
 	c[a] = s[n];
