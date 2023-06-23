@@ -5,7 +5,6 @@ void
 rev_string(char *s)
 {
 
-int len = 0;
 int c[1000];
 int n;
 
