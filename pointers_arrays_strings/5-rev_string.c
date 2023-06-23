@@ -11,7 +11,7 @@ int n;
 
 for (n = 0; s[n] != '\0'; n++)
 {
-	continue
+	continue;
 }
 
 for (len; len > 0; len--)
