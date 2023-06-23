@@ -10,10 +10,16 @@ int c = 0;
 
 while (s[len] != '\0')
 	len++;
-while (c < len / 2)
+if len % 2 = 0
+	while (c < len / 2)
 	{
 	_putchar(s[c * 2]);
 	c++;
+else
+	while (c < len / 2)
+	{
+	_putchar(S[c * 2])
+	{
 }
 _putchar('\n');
 }
