@@ -4,7 +4,6 @@
 void
 _puts(char *str);
 {
-char *str;
 		
 while (*str != '\0')
 {
