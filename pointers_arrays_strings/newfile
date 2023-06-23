@@ -3,12 +3,10 @@
 
 int
 _puts(char *str)
-
 {
-		
-while (*str != '0')
-{
-	_putchar(*str++);
+	while (
+		_putchar(str++);
 }
 _putchar('\n');
+return(0);
 }
