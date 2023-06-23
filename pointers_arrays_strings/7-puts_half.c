@@ -6,6 +6,7 @@ puts_half(char *str)
 {
 int n;
 int c[1000];
+int len = 0;
 
 while (*str)
 {
