@@ -1,25 +1,28 @@
 #include "main.h"
 
 
-char
-*_strncpy(char *dest, char *src, int n)
+char 
+*_strncat(char *dest, char *src, int n)
 {
 	int dLen = 0;
+	int sLen = 0;
 
 
-	while (dLen < n && src[dLen] != '\0')
+	while (dest[dLen] != '\0')
 	{
-		dest[dLen] = src[dLen];
 		dLen++;
 	}
 
 
-	while (dLen < n)
+	while (sLen < n && src[sLen] != '\0')
 	{
-		dest[dLen] = '\0';
+		dest[dLen] = src[sLen];
 		dLen++;
+		sLen++;
 	}
 
+
+	dest[dLen] = '\0';
 
 	return (dest);
 }
