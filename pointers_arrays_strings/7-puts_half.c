@@ -1,24 +1,38 @@
-#include <stdio.h>
 #include "main.h"
 
-void
-puts_half(char *str)
-{
-int n;
-int len;
+/**
+ *  * puts_half - prints half of a string
+ *   * @str: string
+ *    * Return: void
+ *     */
 
-for (n = 0; str[n], n++)
-	continue;
-len -= 1;
-n = len / 2;
-if (len % 2 != 0)
+void puts_half(char *str)
 {
-	for (; len <= n, len++)
-		_putchar(str[len]);
-}
-else
-	for (; len <=; len++);
-		_putchar(str[len]);
-}
+	int i, j, max;
+
+
+	i = 0;
+	j = 0;
+	max = 0;
+
+
+	while (str[i] != '\0')
+	{
+		i++;
+	}
+	if (i % 2 == 0)
+	{
+		max = i / 2;
+	}
+	else
+	{
+		max = (i + 1) / 2;
+	}
+	for (j = max; j < i; j++)
+	{
+		_putchar(str[j]);
+	}
+
+
 	_putchar('\n');
-}	
+}
