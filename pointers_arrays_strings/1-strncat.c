@@ -1,7 +1,7 @@
 #include "main.h"
 
 
-char 
+char
 *_strncat(char *dest, char *src, int n)
 {
 	int dLen = 0;
