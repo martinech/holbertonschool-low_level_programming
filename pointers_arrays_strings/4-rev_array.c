@@ -1,7 +1,7 @@
 #include "main.h"
 
 void
-reverse_array(int *a, int n);
+reverse_array(int *a, int n)
 {
 
 int l = 0;
