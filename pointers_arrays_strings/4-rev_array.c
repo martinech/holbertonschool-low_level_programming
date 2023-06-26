@@ -4,16 +4,13 @@ void
 reverse_array(int *a, int n)
 {
 
-int l = 0;
-int na[n];
-int count = 0;
+	int len_aux;
+	int value;
 
-while (*a != '\0')
-	l++;
-for (; count <= l; count++);
-{
-	na[count]=a[l];
-	l--;
+	for (len_aux = 0; len_aux < n / 2; len_aux++)
+	{
+		value = a[len_aux];
+		a[len_aux] = a[n - 1 - len_aux];
+		a[n - 1 - len_aux] = value;
+	}
 }
-}
-
