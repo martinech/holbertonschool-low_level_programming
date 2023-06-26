@@ -1,7 +1,7 @@
 #include "main.h"
 
 char
-*string_toupper(char *s);
+*string_toupper(char *)
 {
 int l;
 
