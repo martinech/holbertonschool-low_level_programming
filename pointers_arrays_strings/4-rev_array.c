@@ -5,7 +5,7 @@ reverse_array(int *a, int n)
 {
 
 int l = 0;
-int na[];
+int na[0];
 int count;
 
 while (*a != '\0')
