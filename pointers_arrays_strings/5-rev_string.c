@@ -10,10 +10,11 @@ int n;
 int a;
 
 for (n = 0; s[n]; n++)
-{
-	continue;
-}
+	{
+		continue;
+	}
 n -= 1;
+
 for (; s[n]; n--)
 {
 	c[a] = s[n];
