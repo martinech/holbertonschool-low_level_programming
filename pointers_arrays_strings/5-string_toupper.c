@@ -7,9 +7,9 @@ int l;
 
 for (l = 0; s[l] != '\0'; l++)
 	{
-	if (97 <= s[l] && s[l] <= 122)
+	if ('a' <= s[l] && s[l] <= 'z')
 		 s[l] = s[l] - 32;
 	}
-return(0);
+return(s);
 }
 
