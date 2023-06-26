@@ -5,12 +5,12 @@ reverse_array(int *a, int n)
 {
 
 int l = 0;
-int na[0];
+int na[1];
 int count;
 
 while (*a != '\0')
 	l++;
-for (count, count <= l, count++)
+for (count; count <= l; count++);
 {
 	na[count]=a[l];
 	l--;
