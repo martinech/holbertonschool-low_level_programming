@@ -10,7 +10,7 @@ int count;
 
 while (*a != '\0')
 	l++;
-for (count; count <= l; count++);
+for (count = 0; count <= l; count++);
 {
 	na[count]=a[l];
 	l--;
