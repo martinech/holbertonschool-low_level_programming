@@ -5,10 +5,7 @@ char
 {
 unsigned int l;
 
-while (s[l] != '\0')
-	l++;
-
-for (l = 0; l <= n; l++)
+for (l = 0; l < n; l++)
 	s[l] = b;
 
 return (s);
