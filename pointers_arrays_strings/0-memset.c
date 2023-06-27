@@ -3,7 +3,7 @@
 char
 *_memset(char *s, char b, unsigned int n)
 {
-int l;
+unsigned int l;
 
 while (s[l] != '\0')
 	l++;
