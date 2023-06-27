@@ -1,6 +1,6 @@
 #include "main.h"
 
-char 
+char
 *leet(char *str)
 {
 	int i, j;
