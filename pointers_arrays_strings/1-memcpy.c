@@ -7,7 +7,7 @@ unsigned int l;
 
 for (l = 0; l < n; l++)
 	{	
-	dest[l] = src[n];
+	dest[l] = src[l];
 	}
 
 return (dest);
