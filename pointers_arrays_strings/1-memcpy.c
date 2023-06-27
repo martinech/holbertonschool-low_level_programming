@@ -6,7 +6,7 @@ char
 unsigned int l;
 
 for (l = 0; l < n; l++)
-	{	
+	{
 	dest[l] = src[l];
 	}
 
