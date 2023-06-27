@@ -20,7 +20,7 @@ char
 		pajar = haystack;
 		aguja = needle;
 
-	
+
 		while (*haystack != '\0' && *aguja != '\0' && *haystack == *aguja)
 		{
 			haystack++;
