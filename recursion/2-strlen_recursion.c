@@ -8,7 +8,7 @@ int n = 0;
 	if (*s)
 	{
 		n++;
-		_print_rev_recursion(s + 1);
+		_strlen_recursion(s + 1);
 	}
 	return (n);
 }
