@@ -1,6 +1,7 @@
 #include "main.h"
 
-int is_prime_number(int n)
+int
+is_prime_number(int n)
 {
 	if (n <= 1)
 		return (0);
@@ -8,7 +9,8 @@ int is_prime_number(int n)
 }
 
 
-int _prime(int n, int m)
+int
+_prime(int n, int m)
 {
 	if (n % m == 0 && m != 1)
 		return (0);
