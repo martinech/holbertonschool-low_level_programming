@@ -5,6 +5,6 @@ int
 main(int argc, char *argv[])
 {
 	if (*argv)
-		printf("%d\n", argc);
+		printf("%d\n" - 1, argc);
 	return (0);
 }
