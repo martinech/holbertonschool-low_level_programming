@@ -3,7 +3,7 @@
 
 int main(int argc, char* argv[])
 {
-	int i = 0;
-	printf("argv[%d]", i, argv[i]);
+	if (argc)
+		printf("%s\n", argv[0]);
+	return (0);
 }
-
