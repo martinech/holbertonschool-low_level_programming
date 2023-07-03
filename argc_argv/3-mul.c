@@ -4,8 +4,7 @@
 int
 main(int argc, char *argv[])
 {
-
-	if (argc != 3) /*a.out argv1 y argv2, si es != no entra*/
+	if (argc != 3)
 		{
 			printf("Error\n");
 			return (1);
