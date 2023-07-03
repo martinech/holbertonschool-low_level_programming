@@ -4,12 +4,19 @@
 int
 main(int argc, char *argv[])
 {
+	char *c;
+	int sum = 0;
 
-if (argc != 3)
+	while (--argc)
 	{
-		printf("Error\n");
-		return (1);
+		for (c = argv[argc]; *c; c++)
+			if (*c > '9' || *c < '0')
+			{
+				printf("Error\n");
+				return (1);
+			}
+		sum += atoi(argv[argc]);
 	}
-printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
-return (0);
+	printf("%d\n", sum);
+	return (0);
 }
