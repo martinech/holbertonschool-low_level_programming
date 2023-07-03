@@ -5,6 +5,7 @@ int
 main(int argc, char *argv[])
 {
 	int i = 0;
+
 	if (argc)
 		while (i < argc)
 		{
